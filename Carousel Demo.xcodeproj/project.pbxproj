@@ -13,6 +13,20 @@
 		20165EF0262EBDBE00E5C859 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20165EEF262EBDBE00E5C859 /* Preview Assets.xcassets */; };
 		20165EFB262EBDBE00E5C859 /* Carousel_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20165EFA262EBDBE00E5C859 /* Carousel_DemoTests.swift */; };
 		20165F06262EBDBE00E5C859 /* Carousel_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20165F05262EBDBE00E5C859 /* Carousel_DemoUITests.swift */; };
+		20165F17262EC1A300E5C859 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20165F16262EC1A300E5C859 /* TabBarView.swift */; };
+		204995D32636F07800D66348 /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204995D22636F07800D66348 /* SpotifyView.swift */; };
+		209BE7B22637D88F0033B209 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7B12637D88F0033B209 /* View+Extension.swift */; };
+		209BE7B72637D9110033B209 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7B62637D9110033B209 /* GridView.swift */; };
+		209BE7C32637E6F40033B209 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7C22637E6F40033B209 /* TabBarViewModel.swift */; };
+		209BE7D22637E93B0033B209 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7CF2637E93B0033B209 /* UIViewController+Extensions.swift */; };
+		209BE7D32637E93B0033B209 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7D02637E93B0033B209 /* URL+Extensions.swift */; };
+		209BE7E22637E9710033B209 /* ProviderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7DB2637E9710033B209 /* ProviderFactory.swift */; };
+		209BE7E32637E9710033B209 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7DC2637E9710033B209 /* Constants.swift */; };
+		209BE7E42637E9710033B209 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7DD2637E9710033B209 /* NetworkingViewController.swift */; };
+		209BE7E52637E9710033B209 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7DE2637E9710033B209 /* CancelBag.swift */; };
+		209BE7E62637E9710033B209 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7DF2637E9710033B209 /* Router.swift */; };
+		209BE7E72637E9710033B209 /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7E02637E9710033B209 /* AlertPresenter.swift */; };
+		209BE7E82637E9710033B209 /* NetworkingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209BE7E12637E9710033B209 /* NetworkingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +59,20 @@
 		20165F01262EBDBE00E5C859 /* Carousel DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carousel DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20165F05262EBDBE00E5C859 /* Carousel_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel_DemoUITests.swift; sourceTree = "<group>"; };
 		20165F07262EBDBE00E5C859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20165F16262EC1A300E5C859 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		204995D22636F07800D66348 /* SpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyView.swift; sourceTree = "<group>"; };
+		209BE7B12637D88F0033B209 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		209BE7B62637D9110033B209 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		209BE7C22637E6F40033B209 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		209BE7CF2637E93B0033B209 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		209BE7D02637E93B0033B209 /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		209BE7DB2637E9710033B209 /* ProviderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderFactory.swift; sourceTree = "<group>"; };
+		209BE7DC2637E9710033B209 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		209BE7DD2637E9710033B209 /* NetworkingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
+		209BE7DE2637E9710033B209 /* CancelBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		209BE7DF2637E9710033B209 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		209BE7E02637E9710033B209 /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		209BE7E12637E9710033B209 /* NetworkingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +123,12 @@
 		20165EE7262EBDBC00E5C859 /* Carousel Demo */ = {
 			isa = PBXGroup;
 			children = (
+				209BE7DA2637E9710033B209 /* Helper */,
+				209BE7CD2637E93B0033B209 /* Extensions */,
+				209BE7C12637E6CA0033B209 /* TabBar View */,
 				20165EE8262EBDBC00E5C859 /* Carousel_DemoApp.swift */,
+				209BE7B62637D9110033B209 /* GridView.swift */,
+				204995D22636F07800D66348 /* SpotifyView.swift */,
 				20165EEA262EBDBC00E5C859 /* ContentView.swift */,
 				20165EEC262EBDBE00E5C859 /* Assets.xcassets */,
 				20165EF1262EBDBE00E5C859 /* Info.plist */,
@@ -128,6 +161,39 @@
 				20165F07262EBDBE00E5C859 /* Info.plist */,
 			);
 			path = "Carousel DemoUITests";
+			sourceTree = "<group>";
+		};
+		209BE7C12637E6CA0033B209 /* TabBar View */ = {
+			isa = PBXGroup;
+			children = (
+				20165F16262EC1A300E5C859 /* TabBarView.swift */,
+				209BE7C22637E6F40033B209 /* TabBarViewModel.swift */,
+			);
+			path = "TabBar View";
+			sourceTree = "<group>";
+		};
+		209BE7CD2637E93B0033B209 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				209BE7B12637D88F0033B209 /* View+Extension.swift */,
+				209BE7CF2637E93B0033B209 /* UIViewController+Extensions.swift */,
+				209BE7D02637E93B0033B209 /* URL+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		209BE7DA2637E9710033B209 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				209BE7DB2637E9710033B209 /* ProviderFactory.swift */,
+				209BE7DC2637E9710033B209 /* Constants.swift */,
+				209BE7DD2637E9710033B209 /* NetworkingViewController.swift */,
+				209BE7DE2637E9710033B209 /* CancelBag.swift */,
+				209BE7DF2637E9710033B209 /* Router.swift */,
+				209BE7E02637E9710033B209 /* AlertPresenter.swift */,
+				209BE7E12637E9710033B209 /* NetworkingViewModel.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +326,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				20165EEB262EBDBC00E5C859 /* ContentView.swift in Sources */,
+				209BE7E32637E9710033B209 /* Constants.swift in Sources */,
+				204995D32636F07800D66348 /* SpotifyView.swift in Sources */,
+				209BE7B22637D88F0033B209 /* View+Extension.swift in Sources */,
+				20165F17262EC1A300E5C859 /* TabBarView.swift in Sources */,
+				209BE7E72637E9710033B209 /* AlertPresenter.swift in Sources */,
+				209BE7D22637E93B0033B209 /* UIViewController+Extensions.swift in Sources */,
+				209BE7E22637E9710033B209 /* ProviderFactory.swift in Sources */,
+				209BE7E82637E9710033B209 /* NetworkingViewModel.swift in Sources */,
+				209BE7E52637E9710033B209 /* CancelBag.swift in Sources */,
+				209BE7B72637D9110033B209 /* GridView.swift in Sources */,
+				209BE7E42637E9710033B209 /* NetworkingViewController.swift in Sources */,
+				209BE7E62637E9710033B209 /* Router.swift in Sources */,
+				209BE7C32637E6F40033B209 /* TabBarViewModel.swift in Sources */,
+				209BE7D32637E93B0033B209 /* URL+Extensions.swift in Sources */,
 				20165EE9262EBDBC00E5C859 /* Carousel_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

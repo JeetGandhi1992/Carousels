@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Carousel_DemoApp: App {
+    
+    let  tabBarView = TabBarView()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            tabBarView
         }
     }
 }
